@@ -1,0 +1,87 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.headerSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(35, 48, 2);
+    color: white;
+}
+.Center ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+
+}
+.Left{
+    flex: 2;
+   
+}
+.Center{
+    flex: 4;
+    
+}
+.Search{
+    flex: 2;
+    padding: 0px 20px;
+}
+.Search input{
+    padding: 5px;
+    width: 20rem;
+    border-radius: 5px;
+    margin-left: -150px;
+}
+.Right{
+    flex: 4;
+    
+    display: flex;
+    justify-content: space-between;
+    padding:0px 30px;
+}
+.title{
+    font-size: 1rem;
+}
+.bannerBox img{
+    width: 100%;
+    margin: 10px 0px;
+    
+}
+.BannerSection{
+    margin: 10px 0px;
+    
+}
+.mensimages{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.mensimages img{
+    width: 240px;
+    height: 200px;
+    margin: 10px 0px;
+
+   
+}
+.womenCollections{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.womenCollections img{
+    width: 240px;
+    height: 200px;
+    margin: 10px 0px;
+    
+}
+.footerSection{
+    margin: 20px 0px;
+}
